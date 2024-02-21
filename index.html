@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre HTML</title>
+</head>
+
+<body>
+    <center>
+        <h1>Sobre <i>HTML</i></h1>
+    </center>
+    <hr />
+
+    <p><del>Olá mundo!</del></p>
+    <p>Me chamo Henrique e esse é meu <b>primeiro</b> site feito do zero usando <b><i>HTML</i> puro.</b></p>
+    <p>Nesta pequena página, irei comentar <u>meu entendimento</u> sobre alguns tópicos abordados no primeiro módulo do
+        curso de <i>HTML</i> Developer.</p>
+
+    <fieldset>
+        <legend>
+            <h2>Índice</h2>
+        </legend>
+        <ul>
+            <li><a href="#hist_computadores">História dos computadores</a></li>
+            <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+            <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+            <li><a href="#estr_html">Como é uma estrutura básica de um HTML</a></li>
+            <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+            <li><a href="#referencias">Links de referências</a></li>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <h2 id="hist_computadores">História dos computadores</h2>
+        </legend>
+        <h3>Um pouco sobre a história dos computadores.</h3>
+        <p>Em relação a esse assunto, eu achei muito interessante a história, o professor sabia explicar muito bem.</p>
+        <h4>Curiosidade:</h4>
+        <p>Uma curiosidade que chamou minha atenção é sobre o surgimento do termo <i>"bug"</i>, que foi dito pela
+            primeira vez pela cientista da computação <mark>Grace Hopper</mark> em 1940 enquanto ela trabalhava no
+            computador <b>Mark II</b>.</p>
+    </fieldset>
+    <small><a href="#incio">(Voltar)</a></small>
+
+    <fieldset>
+        <legend>
+            <h2 id="clients">O que são <i>Clients</i>?</h2>
+        </legend>
+        <h3>Um pouco sobre meu entendimento de <i>Clients</i>.</h3>
+        <p>O <i>Client side</i>, é tudo que compõe o <b><i>front-end</i></b> de uma página WEB.
+        <p>São as linguagens que se comunicam com o seu <b>navegador</b>, dentre elas temos:</p>
+        <center><img src="assets/images/html-css-javascript.jpg" height="200px"></center>
+    </fieldset>
+    <small><a href="#incio">(Voltar)</a></small>
+
+    <fieldset>
+        <legend>
+            <h2 id="servers">O que são <i>Servers</i>?</h2>
+        </legend>
+        <h3>Um pouco sobre meu entendimento de <i>Servers</i>.</h3>
+        <p>O <i>Server side</i>, é tudo que compõe o <b><i>back-end</i></b> de uma página WEB.
+        <p>São as linguagens que se comunicam com o <b>servidor</b>, dentre elas temos:</p>
+        <center><img src="assets/images/java-javascript-php-python-logo.png" height="200px"></center>
+    </fieldset>
+    <small><a href="#incio">(Voltar)</a></small>
+
+    <h4><mark>Javascript</mark> é uma linguagem que conversa tanto com o <i>Client side</i>, quanto com o <i>Server
+            side</i>.</h4>
+
+    <fieldset>
+        <legend>
+            <h2 id="estr_html">Estrutura Básica de um HTML</h2>
+        </legend>
+        <p>Na concstrução de uma página em HTML é importante conhecer a <b>estrutura básica</b>, pois é a base do site.
+        </p>
+        <blockquote>Assim em uma construção, primeiro é preparado o terreno, feito a base, e depois a construção em si.
+        </blockquote>
+        <p>A estrtura pode ser simplificada em três blocos essenciais:</p>
+        <ol>
+            <li>Doctype</li>
+            <li>Head</li>
+            <li>Body</li>
+        </ol>
+        <ul>
+            <li>Doctype é a <b>definicação do documento</b>, então <b>todo arquivo em html deve obrigatóriamente</b> com
+                a tag "!DOCTYPE html"</li>
+            <br>
+            <li>Head é o local onde contêm <b>informações que carregam antes da página e não são vísiveis ao
+                    usuário.</b> Nela existem dados com vinculação com outros arquivos, como por exemplo o <i>CSS</i>.
+            </li>
+            <br>
+            <li>Body é o <b>documento em si</b>, ou seja, <b>tudo que estiver dentro do body é vísivel ao usuário</b>,
+                seja texto, multimídias, formulários etc. Também é onde se declara o cabeçalho e rodapé.</li>
+        </ul>
+    </fieldset>
+    <small><a href="#incio">(Voltar)</a></small>
+
+    <fieldset>
+        <legend>
+            <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+        </legend>
+        <p>A principal diferença entre essas duas listas está na estrutura delas e a forma com que é organizado os
+            itens.</p>
+        <p>Na lista <b>Ordenada</b>, é representada pela tag "ol" e os itens são organizados numericamente do menor para
+            o menor, exemplo:</p>
+        <ol>
+            <li>Número um.</li>
+            <li>Número dois.</li>
+            <li>Número três.</li>
+        </ol>
+        <p>Na lista <b>Não Ordenada</b>, é representada pela tag "ul" e os itens são representados por um pontinho ao
+            lado esquerdo, exemplo:</p>
+        <ul>
+            <li>Número um.</li>
+            <li>Número dois.</li>
+            <li>Número três.</li>
+        </ul>
+    </fieldset>
+    <small><a href="#incio">(Voltar)</a></small>
+
+    <fieldset>
+        <legend>
+            <h2 id="referências">Referências</h2>
+        </legend>
+        <ol>
+            <li><a href="https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html"
+                    target="_blank">Link 1</a></li>
+            <li><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html" target="_blank">Link
+                    2</a></li>
+            <li><a href="http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm" target="_blank">Link
+                    3</a></li>
+        </ol>
+    </fieldset>
+    <small><a href="#incio">(Voltar)</a></small>
+
+</body>
+
+</html>
